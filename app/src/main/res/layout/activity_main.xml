@@ -5,6 +5,9 @@
 
     <data>
 
+        <variable
+            name="data"
+            type="String" />
     </data>
 
     <LinearLayout
@@ -27,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:gravity="center"
-            android:text="Thông tin khai bao y tế "
+            android:text="Thông tin khai bo y tế "
             android:textColor="#1C9EDA"
             android:textSize="25dp" />
 
@@ -75,7 +78,7 @@
             android:id="@+id/cmt"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="15dp"
             android:hint="Nhập Số CMT/CCCD/Hộ chiếu"
             android:inputType="textPersonName"
             android:textSize="15dp" />
@@ -101,8 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-
-            android:text="Giới tinh "
+            android:text="Giới tính "
             android:textSize="20dp" />
 
         <EditText
@@ -117,31 +119,28 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-
-            android:text="Trong vòng 14 ngày qua, anh/chị có đến tỉnh/thành phố, quốc gia/vùng lãnh thổ nào(có thể đi qua nhiều nơi" />
+            android:layout_marginLeft="15dp"
+            android:text="Trong vòng 14 ngày qua, anh/chị có đến tỉnh/thành phố, quốc gia/vùng lãnh thổ nào(có thể đi qua nhiều nơi)" />
 
         <EditText
             android:id="@+id/lichtrinh"
             android:layout_width="380dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="15dp"
             android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="15dp"
             android:text="Trong vòng 14 ngày qua, anh/chị có tiếp xúc với  " />
 
         <EditText
             android:id="@+id/tiepxuc"
             android:layout_width="380dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="15dp"
             android:hint="Các trường hợp mắc hoặc nghi ngờ mắc COVID-19 "
             android:textSize="15dp" />
-
-
     </LinearLayout>
 </layout>
