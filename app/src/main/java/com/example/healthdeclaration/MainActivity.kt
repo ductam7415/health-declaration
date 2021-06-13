@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val namsinh = binding.namsinh
 
         chuyen.setOnClickListener {
-            val intent = Intent(this, DIsplayActivity::class.java)
+            val intent = Intent(this, DisplayActivity2::class.java)
             val name = ten.text.toString()
             intent.putExtra("ten",name)
             val cccd = cmt.text.toString()
