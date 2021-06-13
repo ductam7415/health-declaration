@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="Khai báo y tế "
+            android:textColor="#1C9EDA"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Thông tin khai bao y tế "
+            android:textColor="#1C9EDA"
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Khuyến cáo: Khai báo thông tin sai là vi phạm pháp luật Việt Nam và có thể xử lý hình sự "
+            android:textColor="#F80505"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/nop"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:backgroundTint="#307FF8"
+            android:gravity="center"
+            android:text="Gửi tờ khai" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Họ tên "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="Nhuyễn Đức Tâm "
+            android:inputType="textPersonName"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Số CMT/CCCD/Hộ chiếu"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/cmt"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Nhập Số CMT/CCCD/Hộ chiếu"
+            android:inputType="textPersonName"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:text="Năm sinh "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/namsinh"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="2004"
+            android:inputType="textPersonName"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:text="Giới tinh "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/gioitinh"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="Nam/nữ "
+            android:inputType="textPersonName"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:text="Trong vòng 14 ngày qua, anh/chị có đến tỉnh/thành phố, quốc gia/vùng lãnh thổ nào(có thể đi qua nhiều nơi" />
+
+        <EditText
+            android:id="@+id/lichtrinh"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Trong vòng 14 ngày qua, anh/chị có tiếp xúc với  " />
+
+        <EditText
+            android:id="@+id/tiepxuc"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Các trường hợp mắc hoặc nghi ngờ mắc COVID-19 "
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+</layout>
